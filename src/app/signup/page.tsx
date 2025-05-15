@@ -59,7 +59,7 @@ const Page: React.FC = () => {
         headers: { 'Content-Type': 'multipart/form-data' },
       })
 
-      console.log(response);
+      console.log( "💕💕💕💕💕💕" ,  response);
       
 
       if (response.data.message === 'Admin created successfully') {
