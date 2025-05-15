@@ -64,6 +64,9 @@ const Page: React.FC = () => {
       }
     } catch (error) {
       console.error("Error creating admin:", error)
+      alert("Error creating admin")
+      console.log(  );
+      
     } finally {
       setLoading(false)
     }
