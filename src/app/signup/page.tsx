@@ -59,6 +59,9 @@ const Page: React.FC = () => {
         headers: { 'Content-Type': 'multipart/form-data' },
       })
 
+      console.log(response.data);
+      
+
       if (response.data.message === 'Admin created successfully') {
         router.push('/login')
       }
