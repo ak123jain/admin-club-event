@@ -230,7 +230,7 @@ const Page = () => {
         },
       });
 
-      console.log('response here', response.data.data);
+      console.log('response here', response.data);
       const re = Array.isArray(response.data.data) ? response.data.data : [response.data.data];
       setClubs(re);
       console.log('response here', re);
